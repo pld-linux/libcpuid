@@ -5,12 +5,12 @@
 Summary:	A small C library for x86 CPU detection and feature extraction
 #Summary(pl.UTF-8):
 Name:		libcpuid
-Version:	0.4.0
+Version:	0.8.1
 Release:	1
 License:	BSD
 Group:		Libraries
 Source0:	https://github.com/anrieff/libcpuid/archive/v%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	42eefb90111945fe8ca71615b99195cb
+# Source0-md5:	07547455373dcbcd707b6cf2738fb930
 URL:		http://libcpuid.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
@@ -95,7 +95,7 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc AUTHORS ChangeLog Readme.md
 %attr(755,root,root) %{_libdir}/libcpuid.so.*.*.*
-%attr(755,root,root) %ghost %{_libdir}/libcpuid.so.14
+%attr(755,root,root) %ghost %{_libdir}/libcpuid.so.17
 
 %files devel
 %defattr(644,root,root,755)
