@@ -5,15 +5,13 @@
 Summary:	A small C library for x86 CPU detection and feature extraction
 Summary(pl.UTF-8):	Mała biblioteka C do wykrywania CPU i jego możliwości dla procesorów x86
 Name:		libcpuid
-Version:	0.8.1
+Version:	0.8.2
 Release:	1
 License:	BSD
 Group:		Libraries
 #Source0Download: https://github.com/anrieff/libcpuid/releases
-# TODO: prefer release tarballs
-#Source0:	https://github.com/anrieff/libcpuid/releases/download/v%{version}/%{name}-%{version}.tar.gz
-Source0:	https://github.com/anrieff/libcpuid/archive/v%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	07547455373dcbcd707b6cf2738fb930
+Source0:	https://github.com/anrieff/libcpuid/releases/download/v%{version}/%{name}-%{version}.tar.gz
+# Source0-md5:	bc2e72494038783002b91e8da88af623
 URL:		https://libcpuid.sourceforge.net/
 BuildRequires:	autoconf >= 2.50
 BuildRequires:	automake
